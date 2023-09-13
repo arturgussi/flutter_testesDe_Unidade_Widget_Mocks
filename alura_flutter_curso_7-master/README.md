@@ -82,3 +82,21 @@ Método usado dentro do test() para comparar o valor da variável e o valor espe
 
 group():
 Método que agrupa diversos testes, para facilitar quando precisamos rodar diversos testes juntos, facilitando a produção.
+
+Teste Automatizado Vs Teste Manual:
+Comparamos a eficiência de um teste Manual (que é feito pelo desenvolvedor, ao alterar o código e verificar se de fato o projeto seguiu o desejado ) e o teste automatizado (que é feito pelo framework e é extremamente veloz e eficiente).
+
+Testes de Widgets:
+Aprendemos que testes de Widgets requerem um pouco mais de cuidado, pois precisam ser renderizados em uma tela emulada para a verificação de elementos desenhados, além de possuir mais possibilidades de dependências entre outros widgets.
+
+pump():
+Método capaz de esperar pelos microprocessos necessários para buildar/renderizar/desenhar na tela os elementos dos Widgets. Lembre-se de que existem diversos tipos de pump() que podem se adaptar melhor a diversos testes e Widgets específicos.
+
+Finders:
+Nome dado aos métodos capazes de buscar, na tela renderizada, os Widgets desejados, utilizando diversas abordagens de procura, como tipo de Widget, qual sua chave, entre outros.
+
+Matcher:
+Compreendemos que, ao encontrar um Widget na tela, precisamos ter algum grau de controle quanto a ele. Assim, podemos verificar quantos Widgets existem na tela e quais os parâmetros que confirmam que de fato aquele Widget é o procurado. Os Matchers são responsáveis por essa comparação.
+
+Testar ações no código:
+Quando testamos nosso aplicativos, nos deparamos com ações de interação com botões, caixas de texto, scrollables entre outros. As ações são instruções que damos ao nosso tester para interagir com certos Widgets a fim de verificar sua usabilidade.
