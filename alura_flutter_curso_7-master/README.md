@@ -70,3 +70,15 @@ Um novo projeto de simulação de banco, com alguns dados de valores arrecadados
 
 Importância dos Estados para Testes:
 Quando temos muitas informações que transformam nossa aplicação devemos ficar mais espertos, pois o gerenciamento dessas informações complica a produção de testes.
+
+Pasta Test:
+Existe uma pasta, em nosso projeto, destinada apenas aos testes que faremos em nosso aplicativo. Essa pasta já possui um teste padrão que vem junto com o projeto inicial. É imprescindível que os testes sejam criados nela.
+
+test():
+Função herdada do pacote de testes do Flutter, que permite a iniciação de um teste simples de unidade. Ele pede por uma descrição (que precisa ser bem estruturada) e por um body (que é responsável pelas ações do teste).
+
+expect():
+Método usado dentro do test() para comparar o valor da variável e o valor esperado por essa variável. Para isso, precisamos usar o actual e o matcher.
+
+group():
+Método que agrupa diversos testes, para facilitar quando precisamos rodar diversos testes juntos, facilitando a produção.
