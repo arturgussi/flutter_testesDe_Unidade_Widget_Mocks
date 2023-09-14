@@ -100,3 +100,15 @@ Compreendemos que, ao encontrar um Widget na tela, precisamos ter algum grau de 
 
 Testar ações no código:
 Quando testamos nosso aplicativos, nos deparamos com ações de interação com botões, caixas de texto, scrollables entre outros. As ações são instruções que damos ao nosso tester para interagir com certos Widgets a fim de verificar sua usabilidade.
+
+Ações:
+Quando testamos nosso aplicativos, nos deparamos com ações de interação com botões, caixas de texto, scrollables entre outros. As ações são instruções que damos ao nosso tester para interagir com certos Widgets a fim de verificar sua usabilidade.
+
+Utilizar mocks:
+Aprendemos que o Mock é usado para criar um dublê de dependências externas (como API’s ou bancos de dados fora do projeto) e que ele evita que tenhamos flaky tests.
+
+Operar com Stub:
+Descobrimos que não basta apenas criar um dublê, precisamos que esse dublê, em alguns casos, nos dê um retorno de valor utilizável, e o Stub é feito para retornar esse valor em nome do Dublê.
+
+Entender as dependências nos testes
+Agora que começamos a entrar mais a fundo nos testes, conseguimos ver com maior facilidade o quanto as dependências entre nossas Classes, métodos e Widgets podem ser complicadas, especialmente em testes automatizados.
